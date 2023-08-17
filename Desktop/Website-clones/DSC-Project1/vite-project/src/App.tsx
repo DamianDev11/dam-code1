@@ -1,15 +1,22 @@
-import { useState } from 'react'
+import "./App.css"
 
-import './App.css'
+const App = () => {
+  return (<div>
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className='App'>
-      <h1>Hello World!</h1> 
-      </div>
-  )
+  <nav>
+    <div className="logo">
+    <img src="/images/nike.jpg" alt="nike"/>
+    </div>
+    <ul>
+      <li href="#">Menu</li>
+      <li href="#">Location</li>
+      <li href="#">About</li>
+      <li href="#">Contaact Us</li>
+      
+    </ul>
+    <button>Login</button>
+    </nav>
+  </div>)
 }
 
-export default App
+export default App;
